@@ -1,7 +1,27 @@
-<h1>
-    This is the home page
-</h1>
-<ul>
-    <li><a href="/register">Sign Up</a></li>
-    <li><a href="/login">Log In</a></li>
-</ul>
+<% include ./partials/header%>
+<div class="container mt-5">
+    <h2 class="text-center">Local Authentication</h2>
+    <div class="row mt-4">
+        <div class="col-sm-6">
+            <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Sign Up</h5>
+                <p class="card-text">Click here to sign up for an account</p>
+                <a href="/register" class="btn btn-primary">Click here</a>
+            </div>
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Log In</h5>
+                <p class="card-text">Click here to Log in into your account</p>
+                <a href="/login" class="btn btn-primary">Click here</a>
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<% include ./partials/footer%>
